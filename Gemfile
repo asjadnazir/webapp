@@ -23,9 +23,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-
+# for debug on error of coffee-script because above '1.8' is not working on windows
 gem 'coffee-script-source', '1.8.0'
-
+# for syntex highlighting
+gem 'pygments.rb', '~> 0.6.0'
+# for markdown parser
+gem 'redcarpet', '~> 3.2.2'
 
 
 # Use ActiveModel has_secure_password
