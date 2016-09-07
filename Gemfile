@@ -28,7 +28,8 @@ gem 'coffee-script-source', '1.8.0'
 gem 'pygments.rb', '~> 0.6.0'
 # for markdown parser
 gem 'redcarpet', '~> 3.2.2'
-
+# for make the link more discriptive
+gem 'friendly_id', '~> 5.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
