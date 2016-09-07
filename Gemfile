@@ -30,6 +30,9 @@ gem 'pygments.rb', '~> 0.6.0'
 gem 'redcarpet', '~> 3.2.2'
 # for make the link more discriptive
 gem 'friendly_id', '~> 5.1'
+# for pagination on posts#index
+gem 'will_paginate', '~> 3.1'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
